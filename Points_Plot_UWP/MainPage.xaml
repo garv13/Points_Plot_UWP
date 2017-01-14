@@ -8,6 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="button" Width="100" Height="100" DataContext="push me" FontSize="30" Foreground="Black" Click="button_Click"/>
+        <Canvas x:Name="layoutRoot">
+            
+        </Canvas>
 
     </Grid>
 </Page>
